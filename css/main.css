@@ -1,0 +1,30 @@
+body{
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
+}
+h1{
+  color: #333;
+}
+form{
+  margin: 20px 0;
+}
+label{
+  font-weight: bold;
+}
+button{
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin: 5px 0;
+}
+p{
+  font-weight: bold;
+}

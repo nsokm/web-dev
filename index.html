@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <h1>Grade Calculator</h1>
+    <form id="grade-form">
+        <label for="grade">Enter Grade:</label>
+        <input type="number" id="grade" min="0" max="100" required>
+        <button type="button" id="add-grade">Add Grade</button>
+    </form>
+    <ul id="grade-list"></ul>
+    <p id="average-grade">Average Grade: <span id="average">0</span></p>
+   <script src="js/main.js"></script>
+</body>
+</html>
